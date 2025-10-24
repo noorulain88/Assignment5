@@ -4,32 +4,30 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #ebe5e7;
+  background-image: linear-gradient(to right, rgb(210, 109, 126), purple);
+
   font-family: serif;
   text-align: center;
   color: black;
   font-size: x-large;
-  margin: 200px;
-  height: 100px;
-  /* padding: 50px; */
+  margin: 100px;
+  height: 200px;
+  padding: 10px;
   vertical-align: middle;
-  /* width: 4%; */
-
-  /* border-color: #ba2560; */
+  width: 4%;
+justify-content: space-between;
 }
 
 header {
   color: black;
-  background-color: #fff;
   text-align: center;
 }
-button{
+button {
   height: 400px;
-  background-color: #d1113e;
-  
+
   height: 0%;
   width: 100px;
-height: 20px;
+  height: 20px;
 
   margin: auto;
   vertical-align: middle;
@@ -37,48 +35,61 @@ height: 20px;
   font-weight: 700;
   display: table-cell;
   color: rgb(3, 3, 3);
-  background-color: #a4149b6c;
+  justify-content: center;
 }
 /* button {
   text-align: center;
-  color: black;
-  width: 100px;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(to left, rgb(165, 27, 112), purple);
+
+  width: auto;
+display: flex;
   box-sizing: content-box;
   display: inline-table;
   padding: 10px;
-  border: 1px solid;
+  border: 5px solid;
 
-  background-color: rgb(8, 5, 6);
   color: #f3f3f3;
+  text-shadow: 1px;
 } */
 p {
-  color: rgb(32, 24, 255);
-  background-color: #fff;
+  color: blue;
   font-size: small;
 }
 footer {
   color: black;
-  background-color: #fff;
-  font-size: small;
+  font-size: large;
 }
 
 strong {
   color: purple;
 }
-#login {
+/* #login{
   text-align: center;
-  /* padding: 1%; */
-  color: black;
-  /* border: 5px solid white; */
-  width: 100px;
+  margin: auto;
+  background-image: linear-gradient(to right, pink, purple);
+  
+  border: 5px solid rgb(225, 38, 38);
+  width: auto;
   box-sizing: content-box;
   display: inline-block;
   padding: 30px;
   margin: 10px;
-
-  background-color: palevioletred;
-}
+  
+   
+} */
 div {
   width: auto;
   padding: auto;
+}
+.demo {
+  width: 400px;
+  height: 300px;
+  justify-content: center;
+  background-color: #fff;
+}
+.password{
+
+  /* width: 20px; */
+  height: 20px;
 }
